@@ -21,7 +21,7 @@ import Layout from './pages/Layout'
         <Route index element = {<Dashboard />}/>
        <Route path='write-article' element={<WriteArticle />}/>
        <Route path = 'blog-titles' element ={<BlogTitles />}/>
-         <Route path = 'generate_images' element ={<GenerateImage />}/>
+         <Route path = 'generate-images' element ={<GenerateImage />}/>
            <Route path = 'remove-background' element ={<RemoveBackground />}/>
            <Route path='remove-object' element={<RemoveObject />}/>
              <Route path = 'review-resume' element ={<ReviewResume />}/>
