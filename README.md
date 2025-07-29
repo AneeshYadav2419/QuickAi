@@ -41,9 +41,11 @@ REPLICATE_API_TOKEN=your_replicate_token
 
 
 📡 API Endpoints (Sample)
-Endpoint	Method	Description
-/api/user/get-published-creations	GET	Fetch all public creations
-/api/ai/generate-image	POST	Generate image from prompt
-/api/user/toggle-like	POST	Like/unlike a creation
+
+| Endpoint                            | Method | Description                |
+| ----------------------------------- | ------ | -------------------------- |
+| `/api/user/get-published-creations` | GET    | Fetch all public creations |
+| `/api/ai/generate-image`            | POST   | Generate image from prompt |
+| `/api/user/toggle-like`             | POST   | Like/unlike a creation     |
 
 
