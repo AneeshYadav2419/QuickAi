@@ -26,11 +26,14 @@ CLERK_SECRET_KEY=your_clerk_secret
 OPENAI_API_KEY=your_openai_key
 REPLICATE_API_TOKEN=your_replicate_token
 
--## 🔧 Tech Stack
+## 🧰 Tech Stack
 
-- **Frontend:** React, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** PostgreSQL
-- **Auth:** Clerk
-- **AI Services:** OpenAI (GPT), Replicate, Remove.bg, etc.
-- **Deployment:** Vercel
+| Layer       | Technology           | Description                                      |
+|-------------|----------------------|--------------------------------------------------|
+| Frontend    | React, Tailwind CSS  | UI components, responsive design                 |
+| Backend     | Node.js, Express.js  | API logic and server-side operations             |
+| Database    | PostgreSQL           | Stores user data, creations, and other records   |
+| Authentication | Clerk             | Handles user login/signup and session management |
+| AI Services | OpenAI, Replicate, Remove.bg | Powers content creation and image processing |
+| Deployment  | Vercel               | Deploys the frontend/backend for public access   |
+
