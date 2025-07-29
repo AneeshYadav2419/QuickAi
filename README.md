@@ -37,3 +37,11 @@ REPLICATE_API_TOKEN=your_replicate_token
 | AI Services | OpenAI, Replicate, Remove.bg | Powers content creation and image processing |
 | Deployment  | Vercel               | Deploys the frontend/backend for public access   |
 
+
+| Endpoint                            | Method | Description                |
+| ----------------------------------- | ------ | -------------------------- |
+| `/api/user/get-published-creations` | GET    | Fetch all public creations |
+| `/api/ai/generate-image`            | POST   | Generate image from prompt |
+| `/api/user/toggle-like`             | POST   | Like/unlike a creation     |
+
+
