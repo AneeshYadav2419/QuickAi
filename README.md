@@ -14,6 +14,9 @@ QuickAi is a powerful AI-driven web application that allows users to:
 - Background and object remover
 - Smart resume review system with AI suggestions
 - Responsive, clean UI with dark mode
+-  🧑‍🤝‍🧑 **Community Page** — Explore all published creations from users, stored on **Cloudinary**.
+- 🔐 **Authentication** — Secure login/signup using **Clerk** with role-based access.
+
 
 -# Install dependencies
 npm install
