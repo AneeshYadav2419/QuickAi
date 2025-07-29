@@ -38,6 +38,8 @@ REPLICATE_API_TOKEN=your_replicate_token
 | Deployment  | Vercel               | Deploys the frontend/backend for public access   |
 
 
+
+
 | Endpoint                            | Method | Description                |
 | ----------------------------------- | ------ | -------------------------- |
 | `/api/user/get-published-creations` | GET    | Fetch all public creations |
