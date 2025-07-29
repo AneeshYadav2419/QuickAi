@@ -44,7 +44,7 @@ export const toggleLikeCreation = async(req, res) => {
             message = 'Creation Liked'
         }
 
-        const formattedArrray = `{${updatedLikes.json(',')}}`
+        const formattedArrray = `{${updatedLikes.join(',')}}`
         await sql `UPDATE creations SET likes = ${formattedArrray} :: text[] WHERE id = ${id}`;
         res.json({success:true, message});
     

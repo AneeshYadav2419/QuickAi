@@ -142,7 +142,7 @@ const AI = new OpenAI({
 
     try {
         const {userId} = req.auth();
-        const { image } = req.file;
+        const  image  = req.file;
         const plan = req.plan;
       
         if(plan !== 'premium'){
@@ -178,9 +178,9 @@ const AI = new OpenAI({
 
 
     try {
-        const {userId} = req.auth();
-         const {object} = req.body();
-        const { image } = req.file;
+        const { userId } = req.auth();
+         const { object } = req.body;
+        const  image  = req.file;
         const plan = req.plan;
       
         if(plan !== 'premium'){
@@ -188,7 +188,7 @@ const AI = new OpenAI({
         }
 
 
-        const {public_id} = await cloudinary.uploader.upload(image.path)
+        const { public_id } = await cloudinary.uploader.upload(image.path)
         const imageUrl = cloudinary.url(public_id, {
             transformation: [{effect: `gen_remove:${object}`}],
             resource_type: 'image'
