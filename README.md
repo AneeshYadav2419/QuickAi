@@ -242,15 +242,30 @@ http://localhost:5000/api
 
 ## 📸 Screenshots
 
-| Home / Generate | Community Feed |
-|-----------------|---------------|
-| ![Home](./screenshots/home.png) | ![Community](./screenshots/community.png) |
 
-| Image Generator | Resume Review |
-|----------------|---------------|
-| ![Image](./screenshots/image.png) | ![Resume](./screenshots/resume.png) |
+                                                   Home Page
 
-> 💡 Add screenshots in a `/screenshots` folder and update paths above.
+<img width="1901" height="910" alt="Image" src="https://github.com/user-attachments/assets/bf641e2c-f69c-45e6-9f49-251ba8184f49" />
+
+                                                   DashBoard Page
+                                                                                                            
+<img width="1917" height="912" alt="Image" src="https://github.com/user-attachments/assets/90ca5aa7-689e-4519-884f-55d0d76a54bc" />
+
+                                                  Write Article Page
+                                                                                                         
+<img width="1918" height="906" alt="Image" src="https://github.com/user-attachments/assets/958552e4-30c6-4b46-be79-15b2a2c64632" />
+
+                                                  Generate Image Page
+                                                                                     
+<img width="1915" height="908" alt="Image" src="https://github.com/user-attachments/assets/74ce23f9-1fe7-484d-9997-986a518097e5" />
+                                 
+                                                  Community (Image Store)
+
+<img width="1918" height="902" alt="Image" src="https://github.com/user-attachments/assets/a3b7e206-12b7-44b0-bb70-25472c250354" />
+
+                                                       Pricing Plan
+
+<img width="1912" height="907" alt="Image" src="https://github.com/user-attachments/assets/6b861ac4-6687-48f6-abf7-c68854f214d7" />
 
 ---
 
